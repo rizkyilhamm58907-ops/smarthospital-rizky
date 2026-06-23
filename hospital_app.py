@@ -218,7 +218,7 @@ with st.form("triage_form"):
 
     col_age, col_gen = st.columns(2)
     with col_age:
-        age    = st.number_input("35", min_value=1, max_value=120, value=35)
+        age    = st.number_input("age", min_value=1, max_value=120, value=35)
     with col_gen:
         gender = st.selectbox("Female", options=['Female', 'Male'])
 
